@@ -8,5 +8,5 @@ def calculate_factorial(n):
     return factorial
 
 
-if __name__ == "__main__":
-    print("calculate_factorial(5):", calculate_factorial(5))  
+n = int(input("Enter a non-negative integer: "))
+print(f"The factorial of {n} is: {calculate_factorial(n)}")

@@ -10,5 +10,4 @@ def apply_decorator():
     return "Function executed"
 
 
-if __name__ == "__main__":
-    print(apply_decorator())  
+print(apply_decorator())

@@ -9,6 +9,5 @@ class Car:
         print(f"Make: {self.make}, Model: {self.model}, Year: {self.year}")
 
 
-if __name__ == "__main__":
-    my_car = Car('Toyota', 'Corolla', 2020)
-    my_car.display_info()  
+my_car = Car('Toyota', 'Corolla', 2020)
+my_car.display_info()

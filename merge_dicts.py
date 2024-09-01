@@ -1,5 +1,4 @@
 
-
 def merge_dicts(dict1, dict2):
     merged = dict1.copy()
     for key, value in dict2.items():
@@ -10,7 +9,6 @@ def merge_dicts(dict1, dict2):
     return merged
 
 
-if __name__ == "__main__":
-    dict1 = {'a': 1, 'b': 2}
-    dict2 = {'b': 3, 'c': 4}
-    print("merge_dicts(dict1, dict2):", merge_dicts(dict1, dict2))  
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'b': 3, 'c': 4}
+print(f"Merged dictionary: {merge_dicts(dict1, dict2)}")
